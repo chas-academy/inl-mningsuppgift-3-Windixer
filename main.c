@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-
+float calculate_hypotenuse(float a, float b) {
+    return sqrt(pow(a, 2) + pow(b, 2));
+}
 // This is where you add the function calculate_hypotenuse
 
 int main() {
